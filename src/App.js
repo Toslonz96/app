@@ -4,9 +4,10 @@ import { Content } from './func-components';
 import { Footer } from './func-components';
 import Button from './class-components'; //call extend Button or not extend { Button }
 import { Calculator2 } from './calculator';
+import { EventData2 } from './event-data';
 function App() {
   return (
-      <Calculator2 />
+      <EventData2 />
   )
 }
 export default App;
