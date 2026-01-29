@@ -11,7 +11,7 @@ export function EventData2() {
     const onClickAdd = (ev) =>{
         let t = ev.target.innerText;
         let r = eval(t);
-        alert(`${t} = ${r}`);
+        alert(`$ {t} = ${r}`);
     }
 
     return (
