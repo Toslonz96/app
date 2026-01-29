@@ -1,11 +1,13 @@
 import React from "react";
 import {userContext} from "./context";
 import Content from "./context-content";
-//import { u } from "tar";
+import Header from "./header";
 
 function App() {
+  let [user,setUser] = React.useState("");
   return ( 
-      <userContext.Provider value={" Toto"}>
+      <userContext.Provider value={[user, setUser]}>
+        <Header/>
         <Content/>
       </userContext.Provider>
   )
